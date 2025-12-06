@@ -72,3 +72,17 @@
 #userGallery .gallery-item.notShowing {
   opacity: 0.6;
 }
+
+@media(max-width: 768px) {
+ 
+   #userGallery .gallery-items-container {
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+}
+
+@media(max-width: 425px) {
+
+  #userGallery .gallery-items-container {
+    grid-template-columns: 1fr 1fr ;
+  }
+}

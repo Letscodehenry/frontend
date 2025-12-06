@@ -75,6 +75,36 @@
   opacity: 0;
 }
 
+@media (max-width: 1200px) {
+  .lowerdashboard-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .content {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 650px) {
+  .content {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .content {
+    font-size: 28px;
+  }
+}
+
 
 
 

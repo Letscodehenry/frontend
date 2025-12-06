@@ -1,6 +1,7 @@
 .bigCalendar {
     color: #0c0c0c;
     height: 100%;
+
     
 }
 
@@ -45,12 +46,16 @@
   .bigCalendar .fc-header-toolbar { 
     font-size: 13px; 
 }
+  .bigCalendar {
+
+  }
 }
 
 @media (max-width: 768px) {
   .bigCalendar .fc-header-toolbar { 
     font-size: 12px; 
 }
+
 }
 
 @media (max-width: 600px) {

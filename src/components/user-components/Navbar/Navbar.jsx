@@ -175,14 +175,21 @@ function Navbar({ window }) {
                     edge="start"
                     sx={{ marginRight: 2}}
                   >
-                    <MenuIcon />
+                    <MenuIcon /> 
                   </IconButton>
                 </Tooltip> 
               }
 
+              {/* <img
+                src={logo}
+                alt="Logo"
+                style={{ height: '30px', width: '170px', marginRight: '16px' }}
+              /> */}
+
               <img
                 src={logo}
                 alt="Logo"
+                className="navbar-logo"
                 style={{ height: '30px', width: '170px', marginRight: '16px' }}
               />
 

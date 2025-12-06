@@ -41,6 +41,7 @@
 
 .table button.Mui-disabled {
     color: #0c0c0c6e;
+    
 }
 
 .table button {
@@ -61,6 +62,7 @@
 .total-appointment span {
     font-size: 14px;
     text-transform: uppercase;
+
 }
 
 .totalAppointment {
@@ -97,3 +99,11 @@
 .dropdown:hover {
     border: 1.5px solid #0c0c0c !important;
 }
+
+/* @media(max-width: 640px) {
+    .modalDetails-date-setting {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+}
+} */

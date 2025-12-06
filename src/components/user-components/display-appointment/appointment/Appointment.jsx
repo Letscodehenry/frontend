@@ -52,7 +52,7 @@ function Appointment(props) {
         updatedAppointmentDescription: description && description !== 'undefined' ? description : '',
       });
     }
-  }, [open]);
+  }, [open]); 
 
   const handleClose = () => {
     setOpen(false);

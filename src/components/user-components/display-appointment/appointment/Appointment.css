@@ -11,7 +11,7 @@
     background-color: rgba(19, 98, 255, 0.055);
     border: 2px solid #1362ff;
 }
-
+ 
 .appointment-box.cancelled {
     background-color: rgba(240, 68, 56, 0.055);
     border: 2px solid #F04438;
@@ -160,5 +160,24 @@
 
 .update-dialog-button-container {
     height: 40px;
+}
+
+@media (max-width: 650px) {
+    .update-appointment-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr ;
+        flex-direction: column;
+    }
+
+    .outerUpdateAppointment {
+        width: 100%;
+    }
+
+    .update-dialog-time-date-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 }
 

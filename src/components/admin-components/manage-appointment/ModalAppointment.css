@@ -207,3 +207,26 @@
 .modalDetails-save-button {
     height: 50px;
 }
+
+@media(max-width: 640px) {
+
+    .modalDetails-status {
+        flex-direction: column;
+        align-items: flex-start;
+ 
+    }
+
+    .modalDetails-date-set {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .modalDetailsTop {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+
+    }
+
+
+}

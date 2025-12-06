@@ -175,3 +175,29 @@
     transform: translateX(10px);
 }
 
+@media screen and (max-width: 900px) {
+    .main-login {
+        grid-template-columns: 1fr;
+    }
+
+    /* .black-side {
+        display: none;
+    } */
+
+    .white-side {
+        width: 100vw;
+    }
+
+    .white-container {
+        width: 90%;
+        height: auto;
+        margin: 50px 0;
+    }
+
+    .login-white-container {
+        width: 90%;
+        height: auto;
+        margin: 50px 0;
+    }
+}
+

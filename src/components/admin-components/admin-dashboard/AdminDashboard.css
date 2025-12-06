@@ -107,6 +107,15 @@
   .date-select-container {
     right: 12px;
   }
+
+}
+
+@media (max-width: 988px) {
+  .small-data {
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 16px;
+  }
+
 }
 
 /* Tablet2 */
@@ -132,12 +141,10 @@
     grid-template-columns: 1fr; 
   }
   .graph { 
-    min-height: 220px; 
+    min-height: 300px; 
+    padding: 12px;
   }
-  .date-select-container {
-    position: static; 
-    margin-top: 12px; 
-  }
+
 }
 
 /* Mobile */
@@ -155,8 +162,5 @@
     min-height: 80px; 
     font-size: 22px; 
   }
-  .graph { 
-    min-height: 180px; 
-    padding: 10px; 
-  }
+
 }
