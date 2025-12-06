@@ -1,0 +1,78 @@
+.top-all-app {
+    margin-bottom: 20px;
+}
+ 
+.info-con {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.number-note-con {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 8px;
+}
+
+.number-note-con .note {
+    font-size: 14px;
+    color: #333;
+}
+
+.step-number {
+    color: #F5F5F5;
+    background-color: #0C0C0C;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.set-appointment-submit-btn-con {
+    height: 50px;
+}
+
+.step-number, .note {
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+/* When completed */
+.completed-step .step-number,
+.completed-step .note {
+  color: #11B364; 
+}
+
+.completed-step .step-number {
+  border-color: #11B364;
+  background-color: #d5f8e4;
+}
+
+.set-appointment-image-con {
+  height: 500px;          /* Or min-height if you want it flexible */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .set-appointment-image-con {
+    height: 300px;       /* Adjust height for smaller screens */
+  }
+
+  .top-all-app-btn-con button{
+  font-size: 12px;
+  width: 100px;
+  }
+  
+}
+
+
+

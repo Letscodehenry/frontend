@@ -1,0 +1,118 @@
+/* Libre Caslon Display */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+.ProjectDetails {
+  width: 100%;
+  margin: 20px 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-family: "Libre Franklin", sans-serif;
+  position: relative;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.ProjectDetails:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.image-container .appointment-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-info-container {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ProjectDetails .info-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.ProjectDetails .info {
+  width: 50%;
+}
+
+.designing-information,
+.dates,
+.payment-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProjectDetails .bottom-part-details {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.bottom-part-details .info-container {
+  flex-direction: column;
+  flex: 1;
+}
+
+.ProjectDetails .label {
+  color: #757575;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 5px;
+}
+
+.ProjectDetails .info-text {
+  font-weight: 700;
+  font-size: 16px;
+  color: #212121;
+  text-transform: uppercase;
+  margin-top: 4px;
+  transition: all 0.3s;
+}
+
+.ProjectDetails .info-text:hover {
+  transform: translateX(5px);
+} 
+
+.ProjectDetails .balance-text {
+  color: #e53935; /* red tone for visibility */
+}
+
+.ProjectDetails .paid-text {
+  color: #43a047; /* green tone for visibility */
+}
+
+.ProjectDetails .total-amount {
+  color: #1565c0; /* blue tone for visibility */
+}
+
+.ProjectDetails a {
+  color: #1565c0;
+  text-decoration: none;
+  
+}
+
+.ProjectDetails a:hover {
+  text-decoration: underline;
+  font-style: italic
+}

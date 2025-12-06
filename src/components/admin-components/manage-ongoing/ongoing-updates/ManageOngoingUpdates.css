@@ -1,0 +1,60 @@
+.ManageOngoingUpdates {
+  padding: 20px;
+}
+
+.updates-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.updates-header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.4s;
+  width: 400px;
+  cursor: pointer;
+}
+
+.updates-header-left:hover {
+  transform: translateX(-6px);
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-back {
+  transform: rotate(180deg);
+  cursor: pointer;
+  height: 18px;
+}
+
+.update-text {
+  display: flex;
+  align-items: center;
+}
+
+.update-text p {
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.add-update-btn {   
+  height: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.add-update-btn .outlined-black,
+.add-update-btn .filled-black {
+  width: 150px;
+}
+

@@ -1,0 +1,78 @@
+.bigCalendar {
+    color: #0c0c0c;
+    height: 100%;
+    
+}
+
+.bigCalendar .fc-daygrid-day-frame {
+    cursor: pointer;
+    transition: all .3s;
+    
+}
+
+
+.bigCalendar .fc-daygrid-day-frame:hover {
+    background-color: #0c0c0c25;
+    
+}
+
+.bigCalendar .fc .fc-daygrid-day.fc-day-today {
+  background-color: #1f1f1f !important; 
+  border: 0;
+  color: #f5f5f5; 
+    
+} 
+
+.bigCalendar .fc-button-primary {
+    background-color: #0c0c0c !important;
+    border: 0;
+    /* background-color: red; */
+
+}
+
+.bigCalendar .fc-button-primary:hover {
+    opacity: .9;
+}
+
+
+@media (max-width: 1024px) {
+  .bigCalendar .fc-header-toolbar {
+    font-size: 14px; 
+}
+}
+
+@media (max-width: 900px) {
+  .bigCalendar .fc-header-toolbar { 
+    font-size: 13px; 
+}
+}
+
+@media (max-width: 768px) {
+  .bigCalendar .fc-header-toolbar { 
+    font-size: 12px; 
+}
+}
+
+@media (max-width: 600px) {
+  .bigCalendar .fc-header-toolbar { 
+    font-size: 11px; 
+}
+}
+
+@media (max-width: 480px) {
+  .bigCalendar .fc-header-toolbar { 
+    font-size: 10px; 
+}
+}
+
+@media (max-width: 320px) {
+  .bigCalendar .fc-header-toolbar { 
+    font-size: 8px; 
+}
+}
+
+@media (max-width: 240px) {
+  .bigCalendar .fc-header-toolbar { 
+    font-size: 6px; 
+}
+}
